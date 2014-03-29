@@ -12,7 +12,7 @@ import android.database.sqlite.SQLiteException;
 public class ContactDBAdapter {
 	// Context of the application using the database.
 	private final Context context;
-	// Database open/upgrade helper
+	// Database open/upgrade helper 
 	private ContactSQLiteOpenHelper dbHelper;
 	private SQLiteDatabase db;
 	private static final String DATABASE_TABLE = "contacts";
